@@ -1,0 +1,222 @@
+@import '~react-agenda/build/styles.css';
+@import '~react-datetime/css/react-datetime.css';
+
+.app__page{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.header-row{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icons{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.ticker-size{
+    width:80vw;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.main__layout{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.main__calendar{
+    width:50vw;
+    height:90vh;
+    background-color: white;
+}
+
+.main__agenda{
+    width:50vw;
+    height:90vh;
+}
+
+
+.dp{
+    &__add{
+        &__form{
+            &__layout{
+                width: 560px;
+                height: 670px;
+                background-color: white;
+                
+            }
+            &__layout--2{
+                padding:40px;
+                width: 1400px;
+                height: 800px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+            }
+        }
+        &__header{
+            margin-top:56px;
+            margin-left: 48px;
+            margin-right: 48px;
+            &--2{
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+        
+
+        &__layout{
+            &__row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                align-items: center;
+            }
+
+            &__entries{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 480px;
+                align-items: center;
+                margin-left: 48px;
+                margin-right: 48px;
+            }
+            &__row2{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                width: 100%;
+            }
+        }
+
+        &__item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 220px;
+            margin: 12px 20px;
+        }
+
+        &__item2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 480px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        &__stock{
+            &__status{
+                width: 220px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            &__label{
+                float: left;
+
+            }
+            &__switch{
+                float: right;
+            }
+        }
+
+        &__entry{
+            &--textarea{
+                width: 480px;
+                height: 80px;
+            }
+
+            &--text{
+                width:220px;
+                height:48px;
+                &--2{
+                    width: 480px;
+                    height:48px;
+                }
+            }
+            &--selection{
+                width:220px;
+            }
+        }
+
+        &__save{
+            &__btn{
+                float: right;
+            }
+        }
+        &__label{
+           &--2{
+            font-size:20px;
+            padding: 48px;
+           } 
+        }
+        &__cancel__btn{
+            width:100px;
+            height:40px;
+            background-color: lavender;
+            color: black;
+            float:left;
+            border-radius: 10px;
+        }
+
+    }
+}
+
+.general__button{
+    width:100px;
+    height:40px;
+    background-color: lavender;
+    color: black;
+    border-radius: 10px;
+}
+
+.route__panel{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.route__address_title{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.route_event_layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    
+}
+
+.flex__vertical_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.add__route_panels{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+}
