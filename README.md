@@ -1,2 +1,0 @@
-# capstone
-Brainstation capstone project
