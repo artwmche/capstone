@@ -45,13 +45,7 @@ export default class PopupAddRouteForm extends Component {
       });
     }  
     closeModal=()=>{
-      this.setState({
-        route_start : [],
-        route_end : [],
-        route_waypoints : [],
-        eventList : [],
-        routeList : [],
-      });
+
       this.setState({open:false});
     }
 
@@ -235,14 +229,7 @@ export default class PopupAddRouteForm extends Component {
               config: { headers:{'Content-Type':'application/json'}}
           })
           .then(result=>{
-
-            this.setState({
-              route_start : [],
-              route_end : [],
-              route_waypoints : [],
-              eventList : [],
-              routeList : [],
-            });
+            
 
             this.setState({open:false});
             
