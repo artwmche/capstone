@@ -9,12 +9,10 @@ export default class PopupAddRouteForm extends Component {
         super(props);
         //this._isMounted = false;
         this.state={
-            //keepOpen : false,
-            //inventorylist : [],
+            
             open : false,
             checked : true,
             stock_status: "In Stock",
-            //refreshList : this.props.refreshList,
             errMessage : [],
             eventList : [],
             routeList : [],
@@ -28,7 +26,7 @@ export default class PopupAddRouteForm extends Component {
 
 
         };
-        //this.handleChange = this.handleChange.bind(this);
+
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
       }
